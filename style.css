@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+ *{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 0;
+    font-style: normal;
+  }
+
+  a{
+   color:white;
+   text-decoration: none;
+  }
+  body{
+ background-image: linear-gradient(to right, #fff , #566);
+ height: 100vh;
+ display:flex;
+ justify-content: center;
+ align-items: center;
+  }
+   
+  .container-fluid{
+
+    background-image: linear-gradient( to right, #232222a1 30%, #000),
+    url(img2.jpg)
+ 
+ ;
+    width: 1500; 
+    height: 640;
+  }
+  .container-fluid{
+
+
+    background-image: linear-gradient( to right, #232222a1 30%, transparent),
+    url(img2.jpg)
+ 
+ ;
+
+  }
+  header{
+   display: flex;
+   justify-content:space-between;
+   align-items: center;
+   padding: 10px;
+
+  }
+
+  ul{
+   width:60%;
+   list-style:none;
+   display: flex;
+   justify-content: space-evenly;
+  }
+
+  ul a{
+   border-bottom: 2px solid transparent;
+  }
+
+  ul a:hover{
+border-bottom-color: white;
+
+  }
+
+  .contain{
+   color:white;
+   width: 50%;
+   margin-top: 50px;
+   padding:30px;
+
+  }
+
+  .contain h2{
+    font-size: 50;
+    text-transform: uppercase;
+  }
+
+  .contain p{
+    letter-spacing: 3px;
+    width: 280px;
+
+  }
+  .thin{
+
+    color: white;
+    width: 50%;
+    margin-top: 50px;
+    padding: 30px;
+
+  }
+
+  .thin h2{
+   font-size: 50;
+   text-transform: uppercase;
+  }
+
+  .thin p{
+
+    letter-spacing: 3px;
+    width: 300;
+ 
+  }
+
+  .up{
+    text-align: right;
+    color: white;
+    width: 50%;
+    margin-top: 50px;
+    padding: 30px;
+  }
+
+.up h3{
+    font-size:60;
+    text-transform: uppercase;
+
+}
+
+.up-fluid h3{
+
+text-align: right;    
+letter-spacing: 3px;
+width: 600;
+color: white;
+
+
+
+}
+.mn{
+  color: white;
+  word-spacing: 100%;
+
+}
+.vid{
+   width: 50%;
+   height: 50%;
+
+   float:none;
+
+
+}
+
+.cont{
+ position: absolute;
+ top:50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ text-align: center;
+ padding: 60px 33px;
+ background: rgba(255,255,255,0.4)
+}
+
+.field{
+  position: relative;
+  height: 30px;
+  width:100% ;
+  display: flex;
+  background:rgba(255,255,255,0.94)
+
+}
+.field input{
+height:100%;
+width:100%;
+background: transparent;
+border: none;
+outline: none;
+color:#222;
+font-size: 16px;
+font-family: 'poppins', sans-serif;
+
+}
+.space{
+margin-top: 16px;
+
+  
+}
+
+.countr{
+    color: azure;
+    font-size: medium;
+
+
+
+}
+
+
+
+   
+
+
+
+
+
+  
+
+  
